@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
 		wget \
 		&& \
 		apt-get clean && \
-		apt-get autoremove \ 
+		apt-get autoremove && \ 
         rm -rf /var/lib/apt/lists/* 
 
 # Install pip
